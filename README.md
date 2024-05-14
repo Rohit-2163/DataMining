@@ -4,7 +4,7 @@
 The practicals are to be performed on R or Python. The operations are to be performed on 
 downloadable datasets mentioned in references below.
 <div>Section 1: Preprocessing</div><br>
-<div>Q1. Create a file “people.txt” with the following data:
+<h2>Q1. Create a file “people.txt” with the following data:</h2><br>
 <td>
 <th>Age  agegroup   height     status     yearsmarried</th>
 <tr>21    adult       6.0     single        -1</tr>
@@ -23,7 +23,8 @@ should be adult, if age is more than 65 the agegroup should be elderly.
 iii) Check whether ruleset E is violated by the data in the file people.txt.
 iv) Summarize the results obtained in part (iii)
 v) Visualize the results obtained in part (iii)</div>
-Q2. Perform the following preprocessing tasks on the dirty_iris datasetii.
+
+<br>Q2. Perform the following preprocessing tasks on the dirty_iris datasetii.
 i) Calculate the number and percentage of observations that are complete.
 ii) Replace all the special values in data with NA.
 iii) Define these rules in a separate text file and read them.
@@ -36,15 +37,18 @@ Print the resulting constraint object.
 – The sepals of an iris are longer than its petals.
 iv)Determine how often each rule is broken (violatedEdits). Also summarize and plot the
 result.
-v) Find outliers in sepal length using boxplot and boxplot.stats
-Q3. Load the data from wine dataset. Check whether all attributes are standardized or not (mean 
-is 0 and standard deviation is 1). If not, standardize the attributes. Do the same with Iris dataset.
+v) Find outliers in sepal length using boxplot and boxplot.stats<br>
+
+<br>Q3. Load the data from wine dataset. Check whether all attributes are standardized or not (mean 
+is 0 and standard deviation is 1). If not, standardize the attributes. Do the same with Iris dataset.<br>
+
+<br><br>
 Section 2: Data Mining Techniques
 Run following algorithms on 2 real datasets and use appropriate evaluation measures to compute 
-correctness of obtained patterns:
-Q4. Run Apriori algorithm to find frequent itemsets and association rules
+correctness of obtained patterns:<br><br>
+<br>Q4. Run Apriori algorithm to find frequent itemsets and association rules
 1.1 Use minimum support as 50% and minimum confidence as 75%
-1.2 Use minimum support as 60% and minimum confidence as 60 %
+1.2 Use minimum support as 60% and minimum confidence as 60 %<br><br>
 Q5. Use Naive bayes, K-nearest, and Decision tree classification algorithms and build classifiers. 
 Divide the data set into training and test set. Compare the accuracy of the different classifiers 
 under the following situations:
@@ -52,6 +56,6 @@ under the following situations:
 33.3%
 5.2 Training set is chosen by i) hold out method ii) Random subsampling iii) Cross-Validation. 
 Compare the accuracy of the classifiers obtained.
-5.3 Data is scaled to standard format.
+5.3 Data is scaled to standard format.<br><br>
 Q6. Use Simple Kmeans, DBScan, Hierachical clustering algorithms for clustering. Compare the 
-performance of clusters by changing the parameters involved in the algorithms.
+performance of clusters by changing the parameters involved in the algorithms.<br><br
