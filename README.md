@@ -66,27 +66,29 @@ downloadable datasets mentioned in references below.
     <li>Visualize the results obtained in part (iii)</li>
 </ol>
 
+<h2>Q2. Perform the following preprocessing tasks on the dirty_iris datasetii.</h2>
+<ol>
+    <li>Calculate the number and percentage of observations that are complete.</li>
+    <li>Replace all the special values in data with NA.</li>
+    <li>Define these rules in a separate text file and read them. (Use editfile function in R (package editrules). Use similar function in Python). Print the resulting constraint object.
+        <ol type="a">
+            <li>Species should be one of the following values: setosa, versicolor or virginica.</li>
+            <li>All measured numerical properties of an iris should be positive.</li>
+            <li>The petal length of an iris is at least 2 times its petal width.</li>
+            <li>The sepal length of an iris cannot exceed 30 cm.</li>
+            <li>The sepals of an iris are longer than its petals.</li>
+        </ol>
+    </li>
+    <li>Determine how often each rule is broken (violatedEdits). Also summarize and plot the result.</li>
+    <li>Find outliers in sepal length using boxplot and boxplot.stats</li>
+</ol>
 
-<br>Q2. Perform the following preprocessing tasks on the dirty_iris datasetii.
-i) Calculate the number and percentage of observations that are complete.
-ii) Replace all the special values in data with NA.
-iii) Define these rules in a separate text file and read them.
-(Use editfile function in R (package editrules). Use similar function in Python).
-Print the resulting constraint object.
-– Species should be one of the following values: setosa, versicolor or virginica.
-– All measured numerical properties of an iris should be positive.
-– The petal length of an iris is at least 2 times its petal width.
-– The sepal length of an iris cannot exceed 30 cm.
-– The sepals of an iris are longer than its petals.
-iv)Determine how often each rule is broken (violatedEdits). Also summarize and plot the
-result.
-v) Find outliers in sepal length using boxplot and boxplot.stats<br>
 
-<br>Q3. Load the data from wine dataset. Check whether all attributes are standardized or not (mean 
-is 0 and standard deviation is 1). If not, standardize the attributes. Do the same with Iris dataset.<br>
+<h2>Q3. Load the data from wine dataset. Check whether all attributes are standardized or not (mean 
+is 0 and standard deviation is 1). If not, standardize the attributes. Do the same with Iris dataset.<h2>
 
 <br><br>
-Section 2: Data Mining Techniques
+<h1>Section 2: Data Mining Techniques</h1>
 Run following algorithms on 2 real datasets and use appropriate evaluation measures to compute 
 correctness of obtained patterns:<br><br>
 <br>Q4. Run Apriori algorithm to find frequent itemsets and association rules
