@@ -89,18 +89,34 @@ is 0 and standard deviation is 1). If not, standardize the attributes. Do the sa
 
 <br><br>
 <h1>Section 2: Data Mining Techniques</h1>
-Run following algorithms on 2 real datasets and use appropriate evaluation measures to compute 
-correctness of obtained patterns:<br><br>
-<br>Q4. Run Apriori algorithm to find frequent itemsets and association rules
-1.1 Use minimum support as 50% and minimum confidence as 75%
-1.2 Use minimum support as 60% and minimum confidence as 60 %<br><br>
-Q5. Use Naive bayes, K-nearest, and Decision tree classification algorithms and build classifiers. 
+<h2>Run following algorithms on 2 real datasets and use appropriate evaluation measures to compute 
+correctness of obtained patterns:</h2>
+<h2>Q4. Run Apriori algorithm to find frequent itemsets and association rules</h2>
+<ol>
+  <li>Use minimum support as 50% and minimum confidence as 75%</li>
+  <li>Use minimum support as 60% and minimum confidence as 60%</li>
+</ol>
+
+<h2>Q5. Use Naive bayes, K-nearest, and Decision tree classification algorithms and build classifiers. 
 Divide the data set into training and test set. Compare the accuracy of the different classifiers 
-under the following situations:
-5.1 a) Training set = 75% Test set = 25% b) Training set = 66.6% (2/3rd of total), Test set = 
-33.3%
-5.2 Training set is chosen by i) hold out method ii) Random subsampling iii) Cross-Validation. 
-Compare the accuracy of the classifiers obtained.
-5.3 Data is scaled to standard format.<br><br>
-Q6. Use Simple Kmeans, DBScan, Hierachical clustering algorithms for clustering. Compare the 
-performance of clusters by changing the parameters involved in the algorithms.<br><br
+under the following situations:</h2>
+<ol>
+  <li>
+    <p>a) Training set = 75%, Test set = 25%</p>
+    <p>b) Training set = 66.6% (2/3rd of total), Test set = 33.3%</p>
+  </li>
+  <li>
+    Training set is chosen by 
+    <ol type="i">
+      <li>hold out method</li>
+      <li>Random subsampling</li>
+      <li>Cross-Validation</li>
+    </ol>
+    Compare the accuracy of the classifiers obtained.
+  </li>
+  <li>Data is scaled to standard format.</li>
+</ol>
+
+
+<h2>Q6. Use Simple Kmeans, DBScan, Hierachical clustering algorithms for clustering. Compare the 
+performance of clusters by changing the parameters involved in the algorithms.</h2><br><br
