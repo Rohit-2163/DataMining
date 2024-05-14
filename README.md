@@ -5,24 +5,67 @@ The practicals are to be performed on R or Python. The operations are to be perf
 downloadable datasets mentioned in references below.
 <div>Section 1: Preprocessing</div><br>
 <h2>Q1. Create a file “people.txt” with the following data:</h2><br>
-<td>
-<th>Age  agegroup   height     status     yearsmarried</th>
-<tr>21    adult       6.0     single        -1</tr>
-<tr>2     child         3     married        0</tr>
-<tr>18    adult       5.7     married        20</tr>
-<tr>221   elderly      5      widowed        2</tr>
-<tr>34    child       -7      married        3</tr>
-</td>
-i) Read the data from the file “people.txt”.
-ii) Create a ruleset E that contain rules to check for the following conditions:
-1. The age should be in the range 0-150.
-2. The age should be greater than yearsmarried.
-3. The status should be married or single or widowed.
-4. If age is less than 18 the agegroup should be child, if age is between 18 and 65 the agegroup 
-should be adult, if age is more than 65 the agegroup should be elderly.
-iii) Check whether ruleset E is violated by the data in the file people.txt.
-iv) Summarize the results obtained in part (iii)
-v) Visualize the results obtained in part (iii)</div>
+
+<table>
+    <tr>
+        <th>Age</th>
+        <th>agegroup</th>
+        <th>height</th>
+        <th>status</th>
+        <th>yearsmarried</th>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>adult</td>
+        <td>6.0</td>
+        <td>single</td>
+        <td>-1</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>child</td>
+        <td>3</td>
+        <td>married</td>
+        <td>0</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>adult</td>
+        <td>5.7</td>
+        <td>married</td>
+        <td>20</td>
+    </tr>
+    <tr>
+        <td>221</td>
+        <td>elderly</td>
+        <td>5</td>
+        <td>widowed</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>child</td>
+        <td>-7</td>
+        <td>married</td>
+        <td>3</td>
+    </tr>
+</table>
+
+<ol>
+    <li>Read the data from the file “people.txt”.</li>
+    <li>Create a ruleset E that contain rules to check for the following conditions:
+        <ol type="a">
+            <li>The age should be in the range 0-150.</li>
+            <li>The age should be greater than yearsmarried.</li>
+            <li>The status should be married or single or widowed.</li>
+            <li>If age is less than 18 the agegroup should be child, if age is between 18 and 65 the agegroup should be adult, if age is more than 65 the agegroup should be elderly.</li>
+        </ol>
+    </li>
+    <li>Check whether ruleset E is violated by the data in the file people.txt.</li>
+    <li>Summarize the results obtained in part (iii)</li>
+    <li>Visualize the results obtained in part (iii)</li>
+</ol>
+
 
 <br>Q2. Perform the following preprocessing tasks on the dirty_iris datasetii.
 i) Calculate the number and percentage of observations that are complete.
